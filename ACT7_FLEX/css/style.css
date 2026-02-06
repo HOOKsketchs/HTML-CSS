@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+
+
+.num {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+    gap: 15px;
+ }
+
+ .background1{
+    background-color: lightcoral;
+    /* 1.8 aqui el orden alterado */
+      /* order: 3; */
+ }
+ .background2{
+    background-color: lightblue;
+    /* 1.8 aqui el orden alterado */
+      /* order: 2; */
+ }
+ .background3{
+    background-color: lightgreen;
+    /* 1.8 aqui el orden alterado */
+      /* order: 1; */
+ }
+
+
+.container {
+    /* align-items: center; */
+    display: flex;
+     border: 1px solid black;
+    /* 1.5 para tener el contenerdor con espacio entre los elementos */
+    height: 400px;
+   
+    /*-----------------------------------  */
+    
+    /* Explicaión */
+ /* ------para tener el contenerdor con los elementos centrados */
+    /* justify-content: center; */
+    
+    /*ejercios  */
+    /*1.2 para que se muestre en la izquierda con los numeros apegados */
+    /* justify-content: flex-start; */
+    /* ----------------------------------------------------- */
+    /* 1.3 para tener el contenerdor  tenga espació entre ellas */
+    /* justify-content: space-around; */
+    /* ----------------------------------------------------- */
+    /* 1.4 para tener el contenerdo eeste a la derecha con espacio entre ellas */
+    /* justify-content: flex-end; */
+    /* gap: 15px; */
+    /* ----------------------------------------------------- */
+
+    /* 1.5 para tener el contenerdor con espacio entre los elementos */
+    /* justify-content: space-around; */
+    /* ----------------------------------------------------- */
+
+    /* 1.6 para tener el contenerdor con los elementos centrados */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 15px; */
+    /* ----------------------------------------------------- */
+
+    /* 1.7 parqaque loesten a la derecha  */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* gap: 15px; */
+     /* ----------------------------------------------------- */
+  
+    /* 1.8 para poder cambiar en el orde de presentación de los elementos */
+    /* order: 1; */
+    /* order: 2; */
+    /* order: 3; */
+
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* gap: 15px; */
+
+
+    /* ------------------------------------------------------- */
+    /* 1.9 elements para que esten a la izquierda en vertical */
+     /* flex-direction: column; */
+
+      /* ------------------------------------------------------- */
+    /* 1.10 elements para que esten a la izquierda en vertical con espacios*/
+     flex-direction: column;
+    justify-content: space-between;
+
+    }
+
