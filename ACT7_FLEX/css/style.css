@@ -93,5 +93,12 @@
      /* flex-direction: column; */
     /* justify-content: space-between; */
 
-    }
+   /* ------------------------------------------------------- */
+    /* 1.11 elements para que esten a la izquierda en vertical con espacios*/
+ justify-content: center;
+ flex-direction: column;
+ align-items: end;
+gap: 5px;
+    
+   }
 
