@@ -90,8 +90,8 @@
 
       /* ------------------------------------------------------- */
     /* 1.10 elements para que esten a la izquierda en vertical con espacios*/
-     flex-direction: column;
-    justify-content: space-between;
+     /* flex-direction: column; */
+    /* justify-content: space-between; */
 
     }
 
