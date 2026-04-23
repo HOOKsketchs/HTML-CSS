@@ -107,11 +107,8 @@
       /* align-items: center; */
       /* gap: 5px; */
    /* } */
-/* punto 2 */
+/* punto 2 (2.1 -2.3 hecho */
 /* ojo con el nth-chil es de seleción multiple */
-.container {
- background-color: lightgreen;
-}
 
 .el:nth-child(5n + 1) {
     background-color: lightcoral;
@@ -131,15 +128,21 @@
 
 .el:nth-child(5n + 5) {
     background-color: lightsalmon;
+    width: 100%;
+    /* 2.5  */
+   
+
 }
 
 .el{
-   width: 25%;
+    /* 2.4 */
+   /* width: 25%; */
+   /* ya usamos el calc */
+   width: calc((100% / 4) - 5px); /* para que se ajuste al tamaño del contenedor */
    display: flex;
    justify-content: center;
    height: 200px;
    align-items: center;
-   /* gap: 30px; */
    
 }
 
@@ -147,17 +150,25 @@
     display: flex;
    flex-wrap: wrap;   
       /* para que se pueda hacer el salto de linea */
-}
+/* 2.4 poner espacios  */
+   gap: 5px;
+    background-color: lightgreen;
+/* 2.5 el row gap nueva linea  */
+ row-gap: 15px;
+
+   
+    }
 
 .num {
     background-color: rgba(255, 255, 255, .5);
     border-radius: 50%;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5em;   
     line-height: 3em;
     text-align: center;
     width: 3em;
- }
+    
+}
 
 
 
